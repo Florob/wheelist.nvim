@@ -1,0 +1,26 @@
+## feed_full
+:e example.txt
+## pause 200
+\<cr>
+:lua require'wheelist'.next_listchars()\<cr>
+## pause
+:lua require'wheelist'.prev_listchars()\<cr>
+## pause
+:nmap ,cc <Plug>WheelistNext\<cr>
+## pause
+## show_keys 300
+## feed_full
+,cc
+## pause
+## feed_full
+,cc
+## pause
+## feed_full
+,cc
+## pause
+## feed_full
+,cc
+## pause
+## show_keys 0
+## feed_full
+:q\<cr>

@@ -1,0 +1,11 @@
+## feed_full
+:e example.txt
+## pause 200
+\<cr>
+:lua require'wheelist'.set_eol('minimal', '$')\<cr>
+## pause
+:lua require'wheelist'.set_eol('minimal')\<cr>
+## pause
+:lua require'wheelist'.set_tab('minimal', '|->')\<cr>
+## pause
+## execute :q
